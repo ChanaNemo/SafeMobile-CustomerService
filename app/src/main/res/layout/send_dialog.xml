@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" שם:"
+            android:textColor="@color/Purpule_Dark_SafeMobile"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/send_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text=" שם:"
+            android:textColor="@color/Purple_SafeMobile"
+            android:textSize="19dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="כתובת מייל: "
+            android:textColor="@color/Purpule_Dark_SafeMobile"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/send_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text=" שם:"
+            android:textColor="@color/Purple_SafeMobile"
+            android:textSize="19dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="סוג הפניה: "
+            android:textColor="@color/Purpule_Dark_SafeMobile"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/send_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text=" שם:"
+            android:textColor="@color/Purple_SafeMobile"
+            android:textSize="19dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ההודעה: "
+            android:textColor="@color/Purpule_Dark_SafeMobile"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/send_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="ההודעה: "
+            android:textColor="@color/Purple_SafeMobile"
+            android:textSize="19dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/send_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/Purple_SafeMobile"
+            android:shadowColor="@color/White"
+            android:text="שלח"
+            android:textColor="@color/White"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/send_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/send_ok"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:shadowColor="@color/White"
+            android:text="חזור לעריכה"
+            android:textColor="@color/Yellow_SafeMobile"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

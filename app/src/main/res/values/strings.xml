@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">שירות לקוחות</string>
+    <string name="question1">1.	האם ניתן לגלוש לאתרים במכשיר המפוקח?</string>
+    <string name="question2">
+2.	איך מתקינים אפליקציות במכשיר?
+    </string>
+    <string name="question3">
+3.	איך מעדכנים אפליקציות במכשיר?
+    </string>
+    <string name="question4">
+        4.	אפליקציה בה אני מעוניין אינה קיימת בחנות, האם ניתן להוסיף אפליקציות כבקשתי?
+    </string>
+    <string name="question5">
+        5.	כאשר אני מנסה להוריד אפליקציה מהחנות החדשה, מתקבלת הודעה "חנות אפליקציות עצר" או שהחנות נסגרת ומופיע מסך הבית.
+    </string>
+    <string name="question6">
+        6.	לאחר התקנת אפליקציה חדשה מהחנות החדשה מופיע הודעת מערכת המבקשת הסרה של האפליקציה.
+    </string>
+    <string name="question7">
+        7.	האם ניתן להפעיל את המכשיר בכל רשת סלולרית?
+    </string>
+    <string name="question8">
+        8.	האם צריך לבצע פעולה כל שהיא לאחר הכנסת כרטיס הסים למכשיר על מנת לוודא פעילות תקינה של השירות?
+    </string>
+
+
+    <string name="answer1">
+        לא. כחלק מההגנה על המכשיר, אפליקציות דפדפן נאסרות לשימוש וחסומות.
+    </string>
+    <string name="answer2">
+        התקנת אפליקציות מתבצעת מחנות אפליקציות ייעודית "החנות החדשה" המותקנת במכשירך.
+    </string>
+    <string name="answer3">
+        המכשיר המפוקח אינו תומך בעדכון אוטומטי של אפליקציות.
+על מנת לעדכן אפליקציה יש לפתוח את "החנות החדשה", למצוא את האפליקציה המבוקשת ולעדכן.
+    </string>
+    <string name="answer4">
+        בכל בקשת אפליקציה חדשה אשר אינה מופיעה בחנות יש לשלוח בקשה באימייל: service@safemobile.co.il או על ידי אפליקציית השירות המותקנת במכשירך. בקשות נבדקות על ידי צוות SafeMobile ובהינתן כי האפליקציה מתאימה לשירות היא תתווסף לחנות.
+    </string>
+    <string name="answer5">
+        פתרון לתקלה חנות אפליקציות עצר
+עקוב אחר ההוראות:
+הגדרות
+ br
+יישומים - מנהל היישומים
+ br
+גלול עם האצבע שמאלה עד הסוף (בחלקו העליון של המסך)
+
+    קטגוריה "הכל" או "מושבתים" (בקטגוריה "הכל" זו תהייה האפליקציה האחרונה למטה)
+
+    מצא את: "מנהל ההורדות" (כרגע במצב מושבת)
+
+    לחץ "מנהל ההורדות" אחר כך לחץ "הפעל"
+
+    לאחר מכן תוכל להוריד אפליקציות באופן תקין מהחנות החדשה
+    </string>
+    <string name="answer6">
+        במכשיר המפוקח רשימת האפליקציות המורשות לשימוש מוגדרת כ "רשימה לבנה". הרשימה מתעדכנת מעת לעת כאשר אפליקציות חדשות מתווספות לחנות.
+על מנת לעדכן את הרשימה הלבנה יש לעדכן את אפליקציית GenApp במכשירך. ניתן למצוא את הגרסה המעודכנת ביותר בחנות החדשה, חיפוש: עדכון.
+    </string>
+    <string name="answer7">
+        שירות SafeMobile הינו כללי לכל רשת ולכל ספק, אין הגבלה לשימוש בשירות בספק סלולרי ספציפי, לרבות ספקי שירות בחו"ל ובעולם.
+    </string>
+    <string name="answer8">
+        יש לוודא כי למכשיר חיבור אינטרנט תקין, ניתן לוודא זאת על ידי סימון "H" או "4G" המופיע בראש המסך בצמוד לסימון הסוללה. אם סימון זה אינו מופיע יש ליצור קשר עם הספק הסלולרי ולבקש להגדיר "נקודת גישה לרשת" (APN)
+    </string>
+
+    <string name="new_message">קריאת שרות מאת: </string>
+    <string name="message_from">קריאה מאת: </string>
+    <string name="message_type">בנושא: </string>
+    <string name="message_email">כתובת מייל: </string>
+    <string name="message_message">תוכן ההודעה: </string>
+    <string name="service">סייפ מובייל שירות לקוחות - קריאתך התקבלה</string>
+    <string name="service_sessage">הודעתך התקבלה בהצלחה! נחזור אליך בהקדם האפשרי.</string>
+    <string name="helo">שלום</string>
+
+
+
+ <string name="spinner_type0">
+[יש לבחור את סוג הפניה...]
+    </string>
+    <string name="spinner_type1">
+        תקלה - אפליקציות
+    </string>
+    <string name="spinner_type2">
+        תקלה - תקשורת
+    </string>
+    <string name="spinner_type3">
+        תקלה - תוכן
+    </string>
+    <string name="spinner_type4">
+        בקשת אפליקציה
+    </string>
+    <string name="spinner_type5">
+        פנייה כללית
+    </string>
+
+<string name="err_all">
+    יש למלא את כל השדות
+</string>
+    <string name="err_name">
+        חובה למלא שם
+    </string>
+    <string name="err_email">
+חובה למלא כתובת מייל
+    </string>
+    <string name="err_invalid_email">
+כתובת מייל לא חוקית
+    </string>
+    <string name="err_message">
+        חובה למלא הודעה
+    </string>
+    <string name="err_type">
+        יש לבחור את סוג הפניה
+    </string>
+
+    <string name="send_msg">
+        האם לשלוח את ההודעה?
+    </string>
+    <string name="please_waite">
+        הודעתך נשלחת, נא להמתין...
+    </string>
+
+    <string name="edit_msg_">
+        הינך באמצע לערוך את הטופס. האם ברצונך להמשיך?
+    </string>
+    <string name="edit_msg_continue">
+        המשך
+    </string>
+    <string name="edit_msg_no">
+        לא, תודה
+    </string>
+</resources>

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/icon"
+        android:title="דף הבית"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_custom_service"
+        android:icon="@drawable/clients"
+        android:title="שירות לקוחות"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_turms"
+        android:icon="@drawable/terms"
+        android:title="תנאי שימוש"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_privacy"
+        android:icon="@drawable/privacy"
+        android:title="מדיניות פרטיות"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_survey"
+        android:icon="@drawable/survey"
+        android:title="סקרים"
+        app:showAsAction="always" />
+
+</menu>

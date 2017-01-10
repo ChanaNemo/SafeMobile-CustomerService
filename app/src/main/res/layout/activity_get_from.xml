@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:textDirection="anyRtl"
+    >
+    <RelativeLayout
+        android:id="@+id/privacy_top"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/Purple_SafeMobile"
+        >
+        <ImageView
+            android:id="@+id/get_form_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            />
+        <ImageView
+            android:id="@+id/get_form_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הודעה חדשה"
+            android:textColor="@color/White"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="27dp"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="התקבלה הודעה מאת"
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/get_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="name"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="כתובת מייל"
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/get_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="email"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="סוג הבעיה"
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/get_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="phone"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הודעה"
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/get_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="message"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:textColor="@color/White"
+            android:background="@color/Purple_SafeMobile"
+            android:id="@+id/next_btn"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    android:layoutDirection="rtl"
+    android:textDirection="anyRtl">
+    <RelativeLayout
+        android:id="@+id/privacy_top"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/Purple_SafeMobile"
+        >
+        <ImageView
+            android:id="@+id/privacy_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            />
+        <ImageView
+            android:id="@+id/privacy_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מדיניות פרטיות"
+            android:textColor="@color/White"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="27dp"
+            />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/privacy_policy"
+        android:layout_below="@+id/privacy_top"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+       />
+</RelativeLayout>

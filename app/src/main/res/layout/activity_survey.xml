@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/survey1_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="חזור"
+        android:textSize="7pt"
+        android:textColor="#000"
+        android:layout_margin="10pt"/>
+    <TextView
+        android:id="@+id/_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="סקר"
+        android:textSize="10pt"
+        android:textColor="#000"
+        android:layout_margin="10pt"
+
+        android:layout_alignParentRight="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/_3"
+        android:gravity="right"
+        android:layout_margin="10pt"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="שם פרטי:"
+            android:textSize="8pt"
+            android:textDirection="rtl"/>
+        <EditText
+            android:id="@+id/survey_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textDirection="rtl"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="טלפון:"
+            android:textSize="8pt"
+            android:textDirection="rtl"/>
+        <EditText
+            android:id="@+id/survey_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textDirection="rtl"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="כתובת:"
+            android:textSize="8pt"
+            android:textDirection="rtl"/>
+        <EditText
+            android:id="@+id/survey_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textDirection="rtl"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="גיל:"
+            android:textSize="8pt"
+            android:textDirection="rtl"/>
+        <EditText
+            android:id="@+id/survey_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textDirection="rtl"/>
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="30pt"
+            android:text="שלח סקר"
+            android:backgroundTint="#f00"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="10pt"
+            android:textSize="10pt"/>
+    </LinearLayout>
+
+</RelativeLayout>

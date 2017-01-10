@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#903ca5</color>
+    <color name="colorPrimaryDark">#4D2460</color>
+    <color name="Purple_SafeMobile">#903ca5</color>
+    <color name="colorAccent">#903ca5</color>
+    <color name="White">#ffffff</color>
+    <color name="Yellow_SafeMobile">#FAE756</color>
+    <color name="Purpule_Dark_SafeMobile">#4D2460</color>
+    <color name="Red_SafeMobile">#cf0202</color>
+    <color name="Gray_SafeMobile">#E7E8E8</color>
+    <color name="Gray_Dark_SafeMobile">#969696</color>
+</resources>
